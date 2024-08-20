@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-family: "Kanit", sans-serif;
+  --bg-color: #5a639c;
+  --box-color: #404985;
+  --primary-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.mensagem {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+.box {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: var(--box-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn-jogar {
+  padding: 10px 20px;
+  border: 1px solid var(--bg-color);
+  font-size: 20px;
+  background-color: var(--box-color);
+  border-radius: 10px;
+  margin-top: 20px;
+  color: var(--primary-color);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  cursor: pointer;
+}
+
+.btn-jogar:active {
+  background-color: #22263f;
+}
